@@ -217,3 +217,32 @@ section.visible-section {
     transition: 0.5s;
     color: var(--accent);
 }
+
+.cards-container {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    border: 2px solid var(--text);
+    border-radius: 8px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 90%;
+}
+
+.card .content {
+    padding-top: 20px;
+}
+
+.card .content img {
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card .content .card-title {
+    font-size: 24px;
+    text-decoration: underline;
+}
