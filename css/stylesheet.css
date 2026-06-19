@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background);
+    padding: 1%;
+}
+
+h1 {
+    font-family: "Stack Sans Notch";
+}
+
+p, a {
+    font-family: "Stack Sans Headline";
+}
+
+h1, p, a {
+    color: var(--text);
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    margin-top: 340px;
+}
+
+.title h1 {
+    font-weight: 300;
+    font-size: 96px;
+}
+
+.title p {
+    color: var(--primary);
+    font-size: 36px;
+}
+
+.nav {
+    border: solid 2px;
+    border-color: var(--primary);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.nav-links{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-right: 15px;
+}
