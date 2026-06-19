@@ -1,0 +1,1 @@
+const links = document.getElementById('nav-links').children;
