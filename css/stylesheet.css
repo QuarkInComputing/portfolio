@@ -63,7 +63,15 @@ a {
 }
 
 .nav .icon {
+    transition: 0.3s;
     float: right;
+}
+
+.icon-large {
+    float: right;
+    transition: 0.3s;
+    scale: 0.9;
+    padding-right: 60px;
 }
 
 .nav img {
@@ -80,6 +88,7 @@ a {
 }
 
 .background {
+    z-index: -1;
     position: fixed;
     width: 100vw;
     height: 100vh;

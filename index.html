@@ -30,7 +30,6 @@
 </head>
 
 <body>
-
     <div class="background">
         <span class="ball"></span>
         <span class="ball"></span>
@@ -55,7 +54,8 @@
             <a class="animate__animated animate__flipInX" href="#">About</a>
             <a class="animate__animated animate__flipInX" href="#">Contact</a>
         </div>
-        <img id="icon" src="/media/icon.webp" class="animate__animated">
+        <img onmouseover="hoverIcon(this)" onmouseleave="unhoverIcon(this)" id="icon" src="/media/icon.webp"
+            class="animate__animated">
     </div>
 
     <div class="title">
@@ -66,6 +66,7 @@
     <div class="cursor"></div>
 </body>
 
+<script src="/js/icon.js"></script>
 <script src="/js/cursor.js"></script>
 
 </html>
