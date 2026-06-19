@@ -62,6 +62,10 @@ a {
     padding-right: 15px;
 }
 
+.nav .icon {
+    float: right;
+}
+
 .nav img {
     width: 75px;
     padding-right: 50px;
@@ -173,4 +177,8 @@ a {
     animation-delay: -28s;
     transform-origin: 25vw -3vh;
     box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
 }
