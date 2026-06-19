@@ -199,3 +199,21 @@ section {
 section.visible-section {
     display: block;
 }
+
+.down-button {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 1px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--text);
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.down-button:hover {
+    transition: 0.5s;
+    color: var(--accent);
+}
