@@ -42,11 +42,13 @@ h1, p, a {
     border-bottom: none;
     border-left: none;
     border-right: none;
+    display: block;
 }
 
 .nav-links{
     padding-top: 10px;
     padding-left: 30px;
+    float: left;
 }
 
 .nav-links a {
@@ -54,4 +56,11 @@ h1, p, a {
     font-size: 24px;
     font-weight: lighter;
     padding-right: 15px;
+}
+
+.nav img {
+    width: 75px;
+    padding-right: 50px;
+    padding-top: 10px;
+    float: right;
 }
