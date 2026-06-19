@@ -30,44 +30,65 @@
 </head>
 
 <body>
-    <section id="section-landing">
-        <div class="background">
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
-            <span class="ball"></span>
+    <div class="nav">
+        <div class="nav-links" id="nav-links">
+            <a onclick="showSection('work')" class="animate__animated animate__flipInX" href="#">Work</a>
+            <a onclick="showSection('about')" class="animate__animated animate__flipInX" href="#">About</a>
+            <a onclick="showSection('contact')" class="animate__animated animate__flipInX" href="#">Contact</a>
         </div>
+        <img onclick="showSection('landing')" onmouseover="hoverIcon(this)" onmouseleave="unhoverIcon(this)" id="icon"
+            src="/media/icon.webp" class="animate__animated">
+    </div>
 
-        <div class="nav">
-            <div class="nav-links" id="nav-links">
-                <a class="animate__animated animate__flipInX" href="#">Work</a>
-                <a class="animate__animated animate__flipInX" href="#">About</a>
-                <a class="animate__animated animate__flipInX" href="#">Contact</a>
-            </div>
-            <img onmouseover="hoverIcon(this)" onmouseleave="unhoverIcon(this)" id="icon" src="/media/icon.webp"
-                class="animate__animated">
-        </div>
-
+    <section id="section-landing" class="visible-section">
         <div class="title">
-            <h1 class="animate__animated animate__fadeInDown">Jack McLean-Wilson</h1>
-            <p class="animate__animated animate__fadeInUp">Freelance Web Developer</p>
+            <h1 id="title-name" class="animate__animated animate__fadeInDown">Jack McLean-Wilson</h1>
+            <p id="title-job" class="animate__animated animate__fadeInUp">Freelance Web Developer</p>
         </div>
     </section>
 
+    <section id="section-work">
+        <div class="title">
+            <h1 id="title-name" class="animate__animated animate__fadeInDown">The Work Page</h1>
+            <p id="title-job" class="animate__animated animate__fadeInUp">This is where my work should be, but I havent added it yet</p>
+        </div>
+    </section>
+
+    <section id="section-about">
+        <div class="title">
+            <h1 id="title-name" class="animate__animated animate__fadeInDown">About Me</h1>
+            <p id="title-job" class="animate__animated animate__fadeInUp">What is there to know</p>
+        </div>
+    </section>
+
+    <section id="section-contact">
+        <div class="title">
+            <h1 id="title-name" class="animate__animated animate__fadeInDown">Get In Touch</h1>
+            <p id="title-job" class="animate__animated animate__fadeInUp">But I would really rather you didnt</p>
+        </div>
+    </section>
+
+    <div class="background">
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+    </div>
     <div class="cursor"></div>
 </body>
 
+<script src="/js/sections.js"></script>
 <script src="/js/icon.js"></script>
 <script src="/js/cursor.js"></script>
 
