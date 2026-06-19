@@ -8,6 +8,7 @@
 	background-color: light-dark(lightgray, lightgray);
 	transform: translate(-50%, -50%); 
 	transform-origin: top left;
+    opacity: 0.9;
 }
 
 .click {

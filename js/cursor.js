@@ -18,13 +18,27 @@ if (!isTouchDevice && !prefersReducedMotion && cursor) {
   `;
 	document.head.appendChild(style);
 
-	// Position cursor div to cursor position
+	// Position cursor div to cursor position with glide effect
+	let cursorX = 0;
+	let cursorY = 0;
+	let targetX = 0;
+	let targetY = 0;
+	const speed = 0.2;
+
 	document.addEventListener("mousemove", (e) => {
-		let x = e.clientX;
-		let y = e.clientY;
-		cursor.style.left = x + "px";
-		cursor.style.top = y + "px";
+		targetX = e.clientX;
+		targetY = e.clientY;
 	});
+
+	function animateCursor() {
+		cursorX += (targetX - cursorX) * speed;
+		cursorY += (targetY - cursorY) * speed;
+		cursor.style.left = cursorX + "px";
+		cursor.style.top = cursorY + "px";
+		requestAnimationFrame(animateCursor);
+	}
+
+	animateCursor();
 
 	// Add 'click' class to cursor on mousedown and remove on mouseup
 	document.addEventListener("mousedown", (e) => cursor.classList.add("click"));
