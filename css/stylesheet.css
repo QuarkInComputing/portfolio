@@ -240,6 +240,8 @@ section.visible-section {
 .card .content img {
     width: 80%;
     padding-left: 5%;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .card .content .card-title {
