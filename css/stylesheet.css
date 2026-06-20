@@ -233,16 +233,38 @@ section.visible-section {
 }
 
 .card .content {
+    padding-right: 5%;
     padding-top: 20px;
 }
 
 .card .content img {
     width: 80%;
     padding-left: 5%;
-    padding-right: 5%;
 }
 
 .card .content .card-title {
     font-size: 24px;
     text-decoration: underline;
+}
+
+.card .content button {
+    padding: 5px;
+    min-width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--accent);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.card .content button:hover {
+    transition: 0.5s;
+    color: white;
+    border: 1px double white;
 }
