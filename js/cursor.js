@@ -56,3 +56,4 @@ if (!isTouchDevice && !prefersReducedMotion && cursor) {
 		});
 	});
 }
+
