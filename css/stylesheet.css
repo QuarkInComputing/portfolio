@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--background);
@@ -270,4 +273,59 @@ section.visible-section {
     transition: 0.5s;
     color: white;
     border: 1px double white;
+}
+
+.bio,
+.rating {
+    text-align: center;
+}
+
+.bio {
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+.bio a {
+    color: var(--accent);
+}
+
+.bio button {
+    margin-top: 25px;
+    padding: 8px;
+    min-width: 100px;
+    color: var(--text);
+    background-color: transparent;
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.bio button:hover {
+    transition: 0.5s;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.rating {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.rating .author {
+    font-size: 14px;
+    color: var(--accent);
+}
+
+.rating span {
+    color: var(--accent);
+}
+
+.rating span.checked {
+    color: var(--text);
+}
+
+.linebreak {
+    background-color: var(--primary);
+    padding: 1px;
+    margin-top: 25px;
 }
