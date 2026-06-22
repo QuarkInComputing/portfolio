@@ -1,5 +1,4 @@
 function hoverIcon(icon) {
-    console.log("Hover");
     icon.classList.add('icon-large');
     icon.classList.remove('icon');
 }
