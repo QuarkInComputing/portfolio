@@ -276,7 +276,8 @@ section.visible-section {
 }
 
 .bio,
-.rating {
+.rating,
+.findme {
     text-align: center;
 }
 
@@ -289,7 +290,8 @@ section.visible-section {
     color: var(--accent);
 }
 
-.bio button {
+.bio button,
+.rating button {
     margin-top: 25px;
     padding: 8px;
     min-width: 100px;
@@ -300,7 +302,8 @@ section.visible-section {
     transition: 0.5s;
 }
 
-.bio button:hover {
+.bio button:hover,
+.rating button:hover {
     transition: 0.5s;
     border-color: var(--primary);
     color: var(--primary);
@@ -328,4 +331,27 @@ section.visible-section {
     background-color: var(--primary);
     padding: 1px;
     margin-top: 25px;
+}
+
+.findme {
+    margin-top: 25px;
+}
+
+.findme h2 {
+    color: var(--text);
+    font-family: "Stack Sans Notch";
+}
+
+.findme span {
+    color: var(--text);
+    scale: 5;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.findme span:hover {
+    transition: 0.5s;
+    color: var(--primary);
 }
