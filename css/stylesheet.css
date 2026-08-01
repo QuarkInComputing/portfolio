@@ -363,3 +363,21 @@ section.visible-section {
     transition: 0.5s;
     color: var(--primary);
 }
+
+#section-view {
+    text-align: center;
+}
+
+#view-image {
+    width: 35%;
+    margin-top: 30px;
+    border: 1px solid var(--text);
+    padding: 20px;
+    border-radius: 20px;;
+}
+
+#view-desc {
+    margin-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
