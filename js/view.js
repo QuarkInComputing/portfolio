@@ -15,7 +15,7 @@ function viewProject(project) {
     projectData.forEach(element => {
         if(element.id == project && !foundProject) {
             projectTitle.innerHTML = element.title;
-            projectImage.src = `/data/work_images/${element.image}`;
+            projectImage.src = `./data/work_images/${element.image}`;
             projectDesc.innerHTML = element.desc;
             foundProject = true;
         }
