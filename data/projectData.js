@@ -10,6 +10,12 @@ export const projectData = [
         title: "Ardersier & Petty Community Council",
         image: "APCC.webp",
         desc: "This website was built for a local community council as part of a teamworking project assigned by my university. My main role was as a designer and front-end developer. The website features a notice board, blog & meetings page which connects to a SQL Database through PHP scripting. Given that I am well versed in PHP, I did assist at points to get this functionality implemented, especially as it related to viewing data taken from the DB. The entire website is a modern recreation of the councils old website, which had existed for nearly two decades at the point of development. The final product saved the council hundreds of pounds a year in hosting charges."
+    },
+    {
+        id: "awf",
+        title: "Alba Wildlife; Ferries",
+        image: "AlbaWildlife.webp",
+        desc: "This website was made as part of a university assessment, in a module for which I was given an A grade. The website features a ticket purchasing system for ferries that run daily through a peroid of several months each year. The design of the website, though still partly considered, was not my primary concern as it was not where most of the grade was obtained. My main focus with this website was developing a quick and efficent database system that is interacted with through PHP and JavaScripts AJAX to quickly store and retrive ticket data."
     }
     
 ];
