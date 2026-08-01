@@ -60,7 +60,7 @@
                     <img src="data/work_images/Cascade4Change.webp" alt="Cascade4Change project image">
                     <p class="card-title">"Cascade4Change" Charity Website</p>
                     <p class="card-description">Created for a charity working for better care homes with a built in databaseless blog.</p>
-                    <a><button>View Project</button></a><a href="#"><button><i class="fa fa-globe"></i></button></a>
+                    <a href="#" onclick="viewProject('c4c'); showSection('view');"><button>View Project</button></a><a href="#"><button><i class="fa fa-globe"></i></button></a>
                 </div>
             </div>
             <div class="card animate__animated animate__fadeInUp">
@@ -160,6 +160,12 @@
         </div>
     </section>
 
+    <section id="section-view">
+        <div class="title">
+            <h1 id="view-title">"Cascade4Change" Charity Website</h1>
+        </div>
+    </section>
+
     <div class="background">
         <span class="ball"></span>
         <span class="ball"></span>
@@ -183,6 +189,6 @@
 <script src="js/sections.js"></script>
 <script src="js/icon.js"></script>
 <script src="js/cursor.js"></script>
-<script type="module" src="js/parse/work.js"></script>
+<script src="js/view.js" type="module"></script>
 
 </html>

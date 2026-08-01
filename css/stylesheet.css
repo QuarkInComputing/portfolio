@@ -33,6 +33,14 @@ a {
     margin-top: 340px;
 }
 
+#section-view .title {
+    margin-top: 90px;
+}
+
+#section-view .title h1 {
+    font-size: 40px;
+}
+
 .title h1 {
     font-weight: 300;
     font-size: 96px;
