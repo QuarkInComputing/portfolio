@@ -26,7 +26,15 @@
 }
 
 .title {
-    margin-top: 200px;
+    margin-top: 35%;
+}
+
+#section-landing .title {
+    margin-top: 30%;
+}
+
+#section-contact .title {
+    margin-bottom: 50px;
 }
 
 p {
